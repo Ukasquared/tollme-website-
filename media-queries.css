@@ -1,0 +1,74 @@
+@media (min-width: 43em) {
+.benefits {
+        flex-direction: row;
+    }
+}
+@media (min-width: 46em) {
+    .benefits {
+        gap: 6rem;
+    } 
+    }
+    @media (min-width: 53em) {
+        .header-text p {
+            font-size: 4.8rem;
+        }
+        .grid-1-col{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3.2rem;  
+        } 
+        .cta-section {
+            flex-direction: row;
+        }
+        .lets-talk {
+            text-align: center;
+            flex: 2;
+           
+        }
+        .lets-talk h1 {
+            font-size: 10rem;
+        }
+        .quote-text {
+            flex: 1;
+        }
+        .accordion {
+         grid-template-columns: repeat(2, 1fr);
+        }
+        .social-icon, .footer-link, .footer-link {
+            justify-self: center;
+        }
+        }
+        @media (min-width: 62em) {
+            .benefits {
+                gap: 12rem;
+            } 
+            .nav-list {
+            position: unset;
+            width: auto;
+            
+            }
+             .nav-list ul {
+                height: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                opacity: 1;
+                pointer-events: auto;
+                visibility: visible;
+                background: none;
+                gap: 2.4rem;
+                
+            }
+            .nav-list ul li a {
+                color: #f3f9fe;
+            }
+            .close-btn {
+                display: none;
+            }
+            .btn-speakone {
+                display: none;
+            }
+            .menu-btn {
+                display: none;
+            }
+            }
